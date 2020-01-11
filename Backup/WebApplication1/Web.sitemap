@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Home"  description="">
+    <siteMapNode url="my pages/homepage.aspx" title="Home"  description="Home Page" />
+    <siteMapNode url="javascript:;" title=" Electronics"  description="ELECTRONICS">
+      <siteMapNode url ="my pages/mobile.aspx" title="Mobile"  description="Mobile"></siteMapNode>
+      <siteMapNode url ="my pages/laptop.aspx" title="Laptop"  description="Laptop"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="jk:;" title=" Clothes"  description="Clothes">
+      <siteMapNode url ="" title="Jeans"  description="Jeans"></siteMapNode>
+      <siteMapNode url ="" title="T-shirt"  description="T-shirt"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="jkl:;" title="Footware"  description="Clothes">
+      <siteMapNode url ="" title="Shoes"  description="Shoes"></siteMapNode>
+      <siteMapNode url ="" title="Slippers"  description="Slippers"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="jkm:;" title="Automobile"  description="Automobile">
+      <siteMapNode url ="" title="Car"  description="Car"></siteMapNode>
+      <siteMapNode url ="" title="Bike"  description="Bike"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="jzk:;" title="Furniture"  description="Furniture">
+      <siteMapNode url ="" title="Bed"  description="Bed"></siteMapNode>
+      <siteMapNode url ="" title="Sofa"  description="Sofa"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="jkpo:;" title="Deco-items"  description="Deco-items">
+      <siteMapNode url ="" title="Lightes"  description="Lightes"></siteMapNode>
+      <siteMapNode url ="" title="Flower-pots"  description="Flower-pots"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="jkss:;" title="Jewellery"  description="Jewellery">
+      <siteMapNode url ="" title="Necklase"  description="Necklase"></siteMapNode>
+      <siteMapNode url ="" title="Bangles"  description="Bangles"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="my pages/feedback.aspx" title="feedback"  description="Woollen-Wear">
+    </siteMapNode>
+    <siteMapNode url="my pages/aboutus.aspx" title="About-Us"  description="About-Us">
+    </siteMapNode>
+    <siteMapNode url="my pages/login.aspx" title="CART"  description="Feedback"></siteMapNode>
+
+
+  </siteMapNode>
+</siteMap>

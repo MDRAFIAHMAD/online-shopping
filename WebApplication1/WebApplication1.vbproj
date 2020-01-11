@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{0C7519F3-BF98-4DA8-A496-DB44A71A35CE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>WebApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.jpg" />
+    <Content Include="images\Asgar.jpg" />
+    <Content Include="images\place.jpg" />
+    <Content Include="my pages\aboutus.aspx" />
+    <Content Include="my pages\feedback.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\1400.jpg" />
+    <Content Include="images\1450.jpg" />
+    <Content Include="images\1480.jpg" />
+    <Content Include="images\1500.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\3b6d9b45927731.5607ba53ab5c2.png" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\9.jpg" />
+    <Content Include="images\CreditCardLogos-2.jpg" />
+    <Content Include="images\e-commerce-solutions-banner.jpg" />
+    <Content Include="images\ecommerce-banner.png" />
+    <Content Include="images\fimnnbnbh.jpg" />
+    <Content Include="images\io.jpg" />
+    <Content Include="images\io2.jpg" />
+    <Content Include="images\oooooooooooooooooo.jpg" />
+    <Content Include="images\register-now-button-pilll-red-hi.png" />
+    <Content Include="images\register-now-red-button.jpg" />
+    <Content Include="images\shopping_cart_2.png" />
+    <Content Include="my pages\css\bootstrap.min.css" />
+    <Content Include="my pages\css\font-awesome.css" />
+    <Content Include="my pages\css\font-awesome.min.css" />
+    <Content Include="my pages\css\style.css" />
+    <Content Include="my pages\engine1\data1\images\3_s.png" />
+    <Content Include="my pages\engine1\data1\images\4_s.jpg" />
+    <Content Include="my pages\engine1\data1\images\9_s.jpg" />
+    <Content Include="my pages\engine1\data1\images\bannerplaceholder4.jpg" />
+    <Content Include="my pages\engine1\data1\images\hcl_categories_banner.jpg" />
+    <Content Include="my pages\engine1\data1\images\kitchenappliancesbanner1_webnew_60off.jpg" />
+    <Content Include="my pages\engine1\data1\images\kitchenappliancesbanner4_webnew_50off.jpg" />
+    <Content Include="my pages\engine1\data1\images\sunflowerbackground03hdimages34844.jpg" />
+    <Content Include="my pages\engine1\data1\tooltips\3_s.png" />
+    <Content Include="my pages\engine1\data1\tooltips\4_s.jpg" />
+    <Content Include="my pages\engine1\data1\tooltips\9_s.jpg" />
+    <Content Include="my pages\engine1\data1\tooltips\bannerplaceholder4.jpg" />
+    <Content Include="my pages\engine1\data1\tooltips\hcl_categories_banner.jpg" />
+    <Content Include="my pages\engine1\data1\tooltips\kitchenappliancesbanner1_webnew_60off.jpg" />
+    <Content Include="my pages\engine1\data1\tooltips\kitchenappliancesbanner4_webnew_50off.jpg" />
+    <Content Include="my pages\engine1\data1\tooltips\sunflowerbackground03hdimages34844.jpg" />
+    <Content Include="my pages\engine1\jquery.js" />
+    <Content Include="my pages\engine1\script.js" />
+    <Content Include="my pages\engine1\style.css" />
+    <Content Include="my pages\engine1\style.mod.css" />
+    <Content Include="my pages\engine1\wowslider.js" />
+    <Content Include="my pages\engine1\wowslider.mod.js" />
+    <Content Include="my pages\engine1\ws-ctrl-convex.svg" />
+    <Content Include="my pages\fonts\fontawesome-webfont.svg" />
+    <Content Include="my pages\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="my pages\homepage.aspx" />
+    <Content Include="my pages\img\10.jpg" />
+    <Content Include="my pages\img\11.jpg" />
+    <Content Include="my pages\img\12.jpg" />
+    <Content Include="my pages\img\13.jpg" />
+    <Content Include="my pages\img\14.jpg" />
+    <Content Include="my pages\img\15.jpg" />
+    <Content Include="my pages\img\16.jpg" />
+    <Content Include="my pages\img\17.jpg" />
+    <Content Include="my pages\img\18.jpg" />
+    <Content Include="my pages\img\19.jpg" />
+    <Content Include="my pages\img\20.jpg" />
+    <Content Include="my pages\img\21.jpg" />
+    <Content Include="my pages\img\22.jpg" />
+    <Content Include="my pages\img\23.jpg" />
+    <Content Include="my pages\img\24.jpg" />
+    <Content Include="my pages\img\25.jpg" />
+    <Content Include="my pages\img\26.jpg" />
+    <Content Include="my pages\img\27.jpg" />
+    <Content Include="my pages\img\28.jpg" />
+    <Content Include="my pages\img\29.jpg" />
+    <Content Include="my pages\img\3.jpg" />
+    <Content Include="my pages\img\30.jpg" />
+    <Content Include="my pages\img\31.jpg" />
+    <Content Include="my pages\img\32.jpg" />
+    <Content Include="my pages\img\33.jpg" />
+    <Content Include="my pages\img\34.jpg" />
+    <Content Include="my pages\img\35.jpg" />
+    <Content Include="my pages\img\36.jpg" />
+    <Content Include="my pages\img\37.jpg" />
+    <Content Include="my pages\img\38.jpg" />
+    <Content Include="my pages\img\39.jpg" />
+    <Content Include="my pages\img\4.jpg" />
+    <Content Include="my pages\img\40.jpg" />
+    <Content Include="my pages\img\BB.jpg" />
+    <Content Include="my pages\img\md.jpg" />
+    <Content Include="my pages\img\rafi.jpg" />
+    <Content Include="my pages\img\1.jpeg" />
+    <Content Include="my pages\img\7.jpg" />
+    <Content Include="my pages\img\9.jpg" />
+    <Content Include="my pages\img\clk2.png" />
+    <Content Include="my pages\img\2.jpg" />
+    <Content Include="my pages\img\8.jpg" />
+    <Content Include="my pages\img\6.jpg" />
+    <Content Include="my pages\img\5.jpg" />
+    <Content Include="my pages\js\bootstrap.min.js" />
+    <Content Include="my pages\js\jquery.backstretch.js" />
+    <Content Include="my pages\js\jquery.js" />
+    <Content Include="my pages\laptop.aspx" />
+    <Content Include="my pages\login.aspx" />
+    <Content Include="my pages\mobile.aspx" />
+    <Content Include="my pages\register.aspx" />
+    <Content Include="my pages\cart.aspx" />
+    <Content Include="my pages\cart1.aspx" />
+    <Content Include="my pages\shipping.aspx" />
+    <Content Include="my pages\WebForm2.aspx" />
+    <Content Include="Styles\Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Styles\Scripts\jquery-1.4.1.js" />
+    <Content Include="Styles\Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="w--1.png" />
+    <Content Include="w--13.png" />
+    <Content Include="w--3.png" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Module1.vb" />
+    <Compile Include="my pages\aboutus.aspx.designer.vb">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\aboutus.aspx.vb">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="my pages\feedback.aspx.designer.vb">
+      <DependentUpon>feedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\feedback.aspx.vb">
+      <DependentUpon>feedback.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="my pages\homepage.aspx.designer.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\homepage.aspx.vb">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="my pages\laptop.aspx.designer.vb">
+      <DependentUpon>laptop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\laptop.aspx.vb">
+      <DependentUpon>laptop.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="my pages\login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="my pages\main.Master.designer.vb">
+      <DependentUpon>main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\main.Master.vb">
+      <DependentUpon>main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="my pages\mobile.aspx.designer.vb">
+      <DependentUpon>mobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\mobile.aspx.vb">
+      <DependentUpon>mobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="my pages\register.aspx.designer.vb">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\register.aspx.vb">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="my pages\Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="my pages\cart.aspx.designer.vb">
+      <DependentUpon>cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\cart.aspx.vb">
+      <DependentUpon>cart.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="my pages\cart1.aspx.designer.vb">
+      <DependentUpon>cart1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\cart1.aspx.vb">
+      <DependentUpon>cart1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="my pages\WebForm2.aspx.designer.vb">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\WebForm2.aspx.vb">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="my pages\shipping.aspx.designer.vb">
+      <DependentUpon>shipping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="my pages\shipping.aspx.vb">
+      <DependentUpon>shipping.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="my pages\engine1\ws-ctrl-convex.eot" />
+    <None Include="my pages\engine1\ws-ctrl-convex.ttf" />
+    <None Include="my pages\engine1\ws-ctrl-convex.woff" />
+    <None Include="my pages\fonts\fontawesome-webfont.eot" />
+    <None Include="my pages\fonts\fontawesome-webfont.ttf" />
+    <None Include="my pages\fonts\fontawesome-webfont.woff" />
+    <None Include="my pages\fonts\FontAwesome.otf" />
+    <None Include="my pages\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="my pages\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="my pages\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="my pages\Site1.Master" />
+    <Content Include="my pages\main.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>48771</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

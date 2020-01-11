@@ -1,0 +1,147 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="main.master.vb" Inherits="WebApplication1.main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>jsr-cart.com</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+               body
+        {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+         
+        .style1
+        {
+            font-family: "High Tower Text";
+            color:  #990000;
+            font-size: larger;
+        }
+        .main_menu
+        {
+            width: 101px;
+            background-color:#00CCFF;
+            color: #000;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-right:5PX ;
+        }
+        .level_menu
+        {
+            width: 110px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 5px;
+        }
+        .selected
+        {
+            background-color:Green;
+            color: #fff;
+        }
+         .btn {
+         background-position: 0% 0%;
+             background-image: linear-gradient(to bottom, #3498db, #2980b9);
+             -webkit-border-radius: 28;
+             -moz-border-radius: 28;
+             border-radius: 28px;
+             font-family: Courier New;
+             color: #ffffff;
+             font-size: 20px;
+             padding: 3px 5px 3px 5px;
+             text-decoration: none;
+             height: 34px;
+             background-color: #3498db;
+             background-repeat: repeat;
+             background-attachment: scroll;
+         }
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.btn1{
+              background-position: 0% 0%;
+             background-image: linear-gradient(to bottom, #3498db, #2980b9);
+             -webkit-border-radius: 28;
+             -moz-border-radius: 28;
+             border-radius: 28px;
+             font-family: Courier New;
+             color: #ffffff;
+             font-size: 20px;
+             padding: 3px 5px 3px 5px;
+             text-decoration: none;
+             height: 34px;
+             background-color:green;
+             background-repeat: repeat;
+             background-attachment: scroll;
+         }
+
+.btn1:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+         .style6
+         {
+             height: 122px;
+         }
+        </style>
+</head>
+<body style="background-color: #FDF3E7"> 
+    <form id="form1" runat="server">
+    <div> 
+     <table  style="background-image:url('/images/oooooooooooooooooo.jpg'); height: 145px; width: 1350px; background-repeat:no-repeat; margin-left:-7px; margin-top:-7px">
+     <tr><td valign="top" align="right" class="style6">
+               &nbsp;</td></tr></table></div>
+<div>
+<br />
+ <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+        <asp:Menu ID="Menu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"
+            OnMenuItemDataBound="OnMenuItemDataBound">
+            <LevelMenuItemStyles>
+                <asp:MenuItemStyle CssClass="main_menu" />
+                <asp:MenuItemStyle CssClass="level_menu" />
+            </LevelMenuItemStyles>
+        </asp:Menu>
+        <br />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</div>
+<div style="height: 90px; background-color: #F6F6F6; text-align: left;">
+    <span class="style1"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; we accept</strong></span><br />
+    <br />
+    <asp:Image ID="Image1" runat="server" ImageUrl="~/images/CreditCardLogos-2.jpg" 
+        Width="31%" Height="44px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <center><span style="font-weight: 700; color:#990000">all rights resverd@jsr-cart.com
+    </span></center></div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+;;; 
+Export: Release 10.2.0.3.0 - Production on Friday, 26 February, 2016 21:20:11
+
+Copyright (c) 2003, 2005, Oracle.  All rights reserved.
+;;; 
+Connected to: Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - Production
+With the Partitioning, OLAP and Data Mining options
+Starting "SCOTT"."SYS_EXPORT_TABLE_01":  scott/******** directory=dump tables=laptop,signup,mobile,login,feedback,shipping dumpfile=mytables; 
+Estimate in progress using BLOCKS method...
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 320 KB
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "SCOTT"."FEEDBACK"                           6.25 KB       2 rows
+. . exported "SCOTT"."LAPTOP"                            11.47 KB      20 rows
+. . exported "SCOTT"."MOBILE"                            10.71 KB      20 rows
+. . exported "SCOTT"."SHIPPING"                          7.890 KB       5 rows
+. . exported "SCOTT"."SIGNUP"                            6.273 KB       1 rows
+. . exported "SCOTT"."LOGIN"                                 0 KB       0 rows
+Master table "SCOTT"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SCOTT.SYS_EXPORT_TABLE_01 is:
+  C:\USERS\MD RAFI AHMAD\DESKTOP\VB\DUMB\MYTABLES;.DMP
+Job "SCOTT"."SYS_EXPORT_TABLE_01" successfully completed at 21:20:32

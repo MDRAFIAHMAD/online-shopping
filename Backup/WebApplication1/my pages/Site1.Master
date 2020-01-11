@@ -1,0 +1,108 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title> jsr-cart.com</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+               body
+        {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+         
+        .style1
+        {
+            font-family: "High Tower Text";
+            color:  #990000;
+            font-size: larger;
+        }
+        .main_menu
+        {
+            width: 101px;
+            background-color:#00CCFF;
+            color: #000;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-right:5PX ;
+        }
+        .level_menu
+        {
+            width: 110px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            margin-top: 5px;
+        }
+        .selected
+        {
+            background-color:Green;
+            color: #fff;
+        }
+        </style>
+        <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+       
+</head>
+<body style="background-color:#0000">
+    <form id="form1" runat="server">
+<div style="height: 105px; margin-top:-8px; margin-left:-7px">
+    <asp:Image ID="Image2" runat="server" Height="127%" 
+        ImageUrl="~/images/io.jpg" Width="101%" />
+ </div>
+<div >
+<br />
+<br />
+<br />
+
+ <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+        <asp:Menu ID="Menu" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"
+            OnMenuItemDataBound="OnMenuItemDataBound">
+            <LevelMenuItemStyles>
+                <asp:MenuItemStyle CssClass="main_menu" />
+                <asp:MenuItemStyle CssClass="level_menu" />
+            </LevelMenuItemStyles>
+        </asp:Menu>
+        <br /></div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/kitchenappliancesbanner1_webnew_60off.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/kitchenappliancesbanner4_webnew_50off.jpg" alt="jquery slideshow" title="" id="wows1_1"/></a></li>
+		<li><img src="data1/images/bannerplaceholder4.jpg" alt="Banner-placeholder-4" title="" id="wows1_2"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Kitchen-Appliances-Banner1_WebNew_60off"><span><img src="data1/tooltips/kitchenappliancesbanner1_webnew_60off.jpg" alt="Kitchen-Appliances-Banner1_WebNew_60off"/>1</span></a>
+		<a href="#" title="Kitchen-Appliances-Banner4_WebNew_50off"><span><img src="data1/tooltips/kitchenappliancesbanner4_webnew_50off.jpg" alt="Kitchen-Appliances-Banner4_WebNew_50off"/>2</span></a>
+		<a href="#" title="Banner-placeholder-4"><span><img src="data1/tooltips/bannerplaceholder4.jpg" alt="Banner-placeholder-4"/>3</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap slider</a> by WOWSlider.com v8.6</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    
+<div style="height: 122px; background-color:#F6F6F6;text-align: left;margin-left:-7px; margin-right:-7px; margin-bottom:-10px">
+    <span class="style1"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; we accept</strong></span>
+    <table w width="100%"><tr><td> <asp:Image ID="Image1" runat="server" ImageUrl="~/images/CreditCardLogos-2.jpg" 
+        Width="31%" Height="44px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td> <td align="right">
+            <asp:ImageButton ID="ImageButton4" runat="server" 
+        ImageUrl="~/images/register-now-red-button.jpg" Height="80px" 
+                PostBackUrl="~/my pages/register.aspx" BackColor="#99CCFF" /></td></tr></table>
+    <center><span style="font-weight: 700; color:#990000">all rights resverd@jsr-cart.com
+    </span></center>
+
+    </div>
+    </form>
+</body>
+</html>
